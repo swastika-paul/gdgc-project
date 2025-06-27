@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#bg-video{
+    position: fixed;
+    top: 0;
+    letter-spacing: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index:-1;
+    object-fit: cover;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #A86523; */
+    /* background: url('https://videos.pexels.com/video-files/3129595/3129595-uhd_2560_1440_30fps.mp4'); */
+}
+#box{
+    width: 25%;
+    height: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,1) ;
+    background-color: transparent;
+    border-radius: 10px;
+}
+#smallbox1{
+     width: 100%;
+    height: 15%;
+    color: antiquewhite;
+}
+#smallbox2{
+     width: 100%;
+    height: 15%;
+    padding-left: 10px;
+    color: antiquewhite;
+}
+#minibox{
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+}
+#smallbox3{
+     width: 350px;
+    height: 10%;
+    padding-left: 10px;
+    display:flex;
+    position: relative;
+    z-index: 1;
+    color: antiquewhite;
+}
+#smallbox3 input{
+   padding-right: 35px;
+
+}
+#smallbox3 img {
+     width: 35px;
+    height: 75%;
+    position: absolute;
+    transform: translateX(320px);
+    z-index: 9;
+    cursor: pointer;
+}
+#container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#remember-me{
+    margin-left: 30px;
+    color:antiquewhite;
+}
+#login{
+    width: 80%;
+    height: 50%;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(115, 159, 201);
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+#login:hover{
+background-color: rgb(118, 118, 205);
+}
+#register{
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content:space-evenly ;
+}
+#smallbox4{
+    color: antiquewhite;
+}
