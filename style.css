@@ -60,13 +60,17 @@ html,body{
    padding-right: 35px;
 
 }
-#smallbox3 img {
+#eyeicon {
      width: 35px;
     height: 75%;
     position: absolute;
     transform: translateX(320px);
     z-index: 9;
     cursor: pointer;
+}
+#password{
+    width: 90%;
+    height: 40px;
 }
 #container{
     display: flex;
@@ -99,4 +103,22 @@ background-color: rgb(118, 118, 205);
 }
 #smallbox4{
     color: antiquewhite;
+}
+@media only screen and (max-width:1285.60px){
+#box{
+     width: 300px;
+    height: 300px;
+}
+#smallbox3{
+    width: 270px;
+    display: flex;
+}
+#eyeicon{
+     width: 35px;
+    height: 75%;
+    position: absolute;
+    transform: translateX(240px);
+    z-index: 9;
+    cursor: pointer;
+}
 }
