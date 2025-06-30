@@ -2,6 +2,7 @@
 This is a basic Login/Signup/Forgot Password system built using HTML, CSS, and JavaScript. It demonstrates how a simple authentication flow works on the front end.
 # features
 Users can navigate between login, signup, and forgot password pages.
+
 Responsive layout for better viewing on different screen sizes.
 Clear and simple UI design with consistent styling.
 # known issues
